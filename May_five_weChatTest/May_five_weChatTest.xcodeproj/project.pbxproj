@@ -13,6 +13,7 @@
 		BF9FB94A1EBCBEA2000E695E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF9FB9481EBCBEA2000E695E /* Main.storyboard */; };
 		BF9FB94C1EBCBEA2000E695E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF9FB94B1EBCBEA2000E695E /* Assets.xcassets */; };
 		BF9FB94F1EBCBEA2000E695E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF9FB94D1EBCBEA2000E695E /* LaunchScreen.storyboard */; };
+		BF9FB9581EBCBED3000E695E /* NJDog.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9FB9571EBCBED3000E695E /* NJDog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		BF9FB94B1EBCBEA2000E695E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF9FB94E1EBCBEA2000E695E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF9FB9501EBCBEA2000E695E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF9FB9561EBCBED3000E695E /* NJDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJDog.h; sourceTree = "<group>"; };
+		BF9FB9571EBCBED3000E695E /* NJDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJDog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				BF9FB94D1EBCBEA2000E695E /* LaunchScreen.storyboard */,
 				BF9FB9501EBCBEA2000E695E /* Info.plist */,
 				BF9FB93F1EBCBEA2000E695E /* Supporting Files */,
+				BF9FB9561EBCBED3000E695E /* NJDog.h */,
+				BF9FB9571EBCBED3000E695E /* NJDog.m */,
 			);
 			path = May_five_weChatTest;
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF9FB9581EBCBED3000E695E /* NJDog.m in Sources */,
 				BF9FB9471EBCBEA2000E695E /* ViewController.m in Sources */,
 				BF9FB9441EBCBEA2000E695E /* AppDelegate.m in Sources */,
 				BF9FB9411EBCBEA2000E695E /* main.m in Sources */,
